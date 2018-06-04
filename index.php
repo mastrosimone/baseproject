@@ -32,12 +32,6 @@
 
 </div>
 
-
-
-
-
-
-
 	<div class="menu">
 		
 
@@ -94,8 +88,8 @@
 	<div class="testo">
 
 		<?php ini_set('display_errors', 'on'); ?>
-		<?php include ("connect_db.php");?>
-
+		<?php echo "ciao"; ?>
+		<?php include ("js/connect_db.php");?>
 
     <?php
 
