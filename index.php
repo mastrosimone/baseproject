@@ -124,22 +124,6 @@
 				<?php include ("/assets/connect_db.php");?>
 				<?php
 
-$sql = "SELECT id, title, category, created_at FROM books INNER JOIN categoria ON books.id = categoria.id_categoria";
-
-if($result = $mysqli->query($sql)){
-	if($result->num_rows > 0){
-		while($row = $result->fetch_array(MYSQLI_ASSOC)){
-			echo '<pre>'; print_r($row);
-		}
-	}
-}
-?>
-					<form name="richiamo_funzione" action="funzione.php" method="GET">
-						<input type="text" name="funzione" />
-						<input type="submit" name="richiama" value="Richiama la funzione" />
-					</form>
-
-
 
 			</div>
 		</div>
