@@ -14,7 +14,7 @@
 		
 		<div class="top1">
 				<a href="https://www.google.com/maps/place/Villa+Riso/@38.1887877,13.3055371,17z/data=!3m1!4b1!4m5!3m4!1s0x1319e9abceec0833:0xd26f98c2033bd9ae!8m2!3d38.1887835!4d13.3077258" target="_blank" class="top_link">Raggiungici</a>
-				<a href="tel:3803135022" class="top_link">Telefonaci</a>
+				<a href="tel:091111111" class="top_link">Telefonaci</a>
 				<a href="contatti.html" class="top_link">Scrivici</a>
 		</div>
 		<div class="top2">
@@ -89,8 +89,7 @@
 
 		<?php ini_set('display_errors', 'on'); ?>
 		<?php echo "ciao"; ?>
-		<?php include ("js/connect_db.php");?>
-
+		<?php include ("/assets/connect_db.php");?>
     <?php
 
 $sql = "SELECT id, title, category, created_at FROM books INNER JOIN categoria ON books.id = categoria.id_categoria";
