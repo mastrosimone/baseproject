@@ -122,7 +122,7 @@
 				<?php ini_set('display_errors', 'on'); ?>
 				<?php echo "ciao"; ?>
 				<?php include ("/assets/connect_db.php");?>
-				<?php
+				
 
 
 			</div>
